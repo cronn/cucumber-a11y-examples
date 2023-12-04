@@ -1,0 +1,11 @@
+ACCESSIBILITY CHECK
+VIOLATIONS check for: https://www.cronn.de/
+Found 1 items
+
+1: Heading levels should only increase by one
+Description: Ensures the order of headings is semantically correct
+Help URL: https://dequeuniversity.com/rules/axe/4.7/heading-order?application=axeAPI
+Impact: moderate
+Tags: cat.semantics, best-practice
+		HTML element: <h4 class="title text-center">agile</h4>
+		Selector: [.col-md-3.col-lg-2.col-6:nth-child(2) > .title]
